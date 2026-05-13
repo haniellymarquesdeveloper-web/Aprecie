@@ -2,15 +2,15 @@
   "name": "aprecie",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/haniellymarquesdeveloper-web/Aprecie.git",
+  "homepage": "https://haniellymarquesdeveloper-web.github.io/Aprecie/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@react-spring/three": "^10.0.3",
